@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specification", "Specification", "{FD15BC41-C1FF-41B1-8509-E407BBB49C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Specification.Abstraction", "src\Specification\Tools.Specification.Abstraction\Tools.Specification.Abstraction.csproj", "{8BBD7A88-CE07-44B3-BFEA-D21FADAF403D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Specification", "src\Specification\Tools.Specification\Tools.Specification.csproj", "{1F37C710-B5D0-4959-947C-F77853D92482}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BBD7A88-CE07-44B3-BFEA-D21FADAF403D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBD7A88-CE07-44B3-BFEA-D21FADAF403D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBD7A88-CE07-44B3-BFEA-D21FADAF403D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBD7A88-CE07-44B3-BFEA-D21FADAF403D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F37C710-B5D0-4959-947C-F77853D92482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F37C710-B5D0-4959-947C-F77853D92482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F37C710-B5D0-4959-947C-F77853D92482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F37C710-B5D0-4959-947C-F77853D92482}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BBD7A88-CE07-44B3-BFEA-D21FADAF403D} = {FD15BC41-C1FF-41B1-8509-E407BBB49C10}
+		{1F37C710-B5D0-4959-947C-F77853D92482} = {FD15BC41-C1FF-41B1-8509-E407BBB49C10}
 	EndGlobalSection
 EndGlobal
