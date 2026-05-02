@@ -1,0 +1,7 @@
+﻿services:
+  specification.api:
+    image: specification.api
+    build:
+      context: .
+      dockerfile: samples/Specification/Specification.Api/Dockerfile
+
